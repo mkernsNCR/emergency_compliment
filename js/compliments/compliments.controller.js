@@ -2,9 +2,9 @@
 
 (function(){
   var app = angular.module("emergencyComp");
-  app.controller("complimentsController", ComplimentsController);
+  app.controller("emergencyController", emergencyController);
 
-  function ComplimentsController(){
+  function emergencyController(){
     var vm = this;
     var randomIndex = Math.floor(Math.random() * data.length)
     vm.data = data[randomIndex];
