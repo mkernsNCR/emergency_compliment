@@ -1,7 +1,7 @@
 `use strict`;
 
 (function(){
-  var app = angular.module("emergencyComp");
+  var app = angular.module("compliments");
   app.controller("complimentsController", ComplimentsController);
 
   function ComplimentsController(){
